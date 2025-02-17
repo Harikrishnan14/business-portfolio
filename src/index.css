@@ -7,3 +7,13 @@
     @apply bg-bg_color;
   }
 }
+
+@layer components {
+  .btn {
+    @apply px-7 py-4 rounded-xl;
+  }
+
+  .img {
+    @apply w-24 h-[480px] object-cover rounded-lg;
+  }
+}
