@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Nav from './components/Nav'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
+import SectionThree from './components/SectionThree'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </>
   )
 }

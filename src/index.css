@@ -16,4 +16,14 @@
   .img {
     @apply w-24 h-[480px] object-cover rounded-lg;
   }
+
+  .custom-navigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    padding: 15px;
+  }
 }
