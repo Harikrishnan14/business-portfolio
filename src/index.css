@@ -26,4 +26,13 @@
   .swiper-button-next {
     padding: 15px;
   }
+
+  .bg {
+    /* background-image: url('./assets/images/Bg1.jpg'); */
+    background-image: url('./assets/images/Bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+  }
 }
