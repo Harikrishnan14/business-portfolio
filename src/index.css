@@ -35,4 +35,24 @@
     height: 400px;
     width: 100%;
   }
+
+  .box {
+    @apply p-10 flex flex-col gap-4 items-start rounded-xl hover:bg-green-100 cursor-pointer;
+  }
+
+  .box h3 {
+    @apply font-medium;
+  }
+
+  .box img {
+    @apply w-16 grayscale;
+  }
+
+  .box p {
+    @apply opacity-80 leading-7;
+  }
+
+  .box button {
+    @apply text-green-500 font-medium;
+  }
 }
