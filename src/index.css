@@ -55,4 +55,13 @@
   .box button {
     @apply text-green-500 font-medium;
   }
+
+  .contact-bg {
+    background-image: url(./assets/images/Bg2.jpg);
+    background-position: center;
+    background-size: fill;
+    height: 400px;
+    width: 100%;
+    filter: invert(10%);
+  }
 }
