@@ -17,7 +17,7 @@ const SectionOne = () => {
                         <button className='btn border border-gray-600 font-medium'>To get the consultation</button>
                     </div>
                 </div>
-                <div className='flex-1 flex gap-4 justify-end'>
+                <div className='img-container flex-1 flex gap-4 justify-end'>
                     <img className='img' src={img1} alt="" />
                     <img className='img' src={img2} alt="" />
                     <img className='img' src={img3} alt="" />
