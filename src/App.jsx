@@ -11,8 +11,11 @@ import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from 'gsap/all'
 
 function App() {
+
+  gsap.registerPlugin(ScrollTrigger);
 
   useGSAP(() => {
     gsap.from(".img-container", {
@@ -30,6 +33,15 @@ function App() {
         duration: 1.5
       })
     });
+
+    gsap.from(".text-content", {
+      opacity: 0,
+      y: 300,
+      duration: 2,
+      ScrollTrigger: {
+        trigger: ".text-content >*",
+      },
+    })
   });
 
   return (
