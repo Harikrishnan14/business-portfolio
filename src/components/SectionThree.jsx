@@ -46,7 +46,7 @@ const SectionThree = () => {
     )
 
     return (
-        <section className='p-20'>
+        <section className='p-20 overflow-hidden'>
             <div className='flex items-center justify-around mb-10'>
                 <h1 className='text-4xl font-bold'>Binhoff gallery</h1>
                 <div className="custom-navigation">
@@ -59,7 +59,7 @@ const SectionThree = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='swiper-container-wrapper'>
                 <Swiper
                     className='h-[500px] px-20 ml-40'
                     // install Swiper modules

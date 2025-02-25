@@ -42,6 +42,15 @@ function App() {
         trigger: ".text-content >*",
       },
     })
+
+    gsap.from(".swiper-container-wrapper", {
+      xPercent: 100,
+      ease: "power3.inOut",
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".swiper-container-wrapper"
+      }
+    })
   });
 
   return (
