@@ -51,6 +51,15 @@ function App() {
         trigger: ".swiper-container-wrapper"
       }
     })
+
+    gsap.from(".bg-text", {
+      y: 100,
+      opacity: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".bg-text"
+      }
+    })
   });
 
   return (
