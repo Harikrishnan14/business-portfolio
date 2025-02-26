@@ -48,7 +48,7 @@ const SectionFive = () => {
             <h1 className='text-4xl text-bold'>Actual news</h1>
             <div className='flex flex-wrap items-center justify-center gap-12'>
                 {articles?.map((item, index) => (
-                    <div className={`${index >= 4 && !isClick ? "hidden" : ""} flex flex-col gap-2 w-96`} key={index}>
+                    <div className={`${index >= 4 && !isClick ? "hidden" : ""} flex flex-col gap-2 w-96 article`} key={index}>
                         <img className='min-h-[500px] max-h-[600px] h-full object-cover rounded-xl' src={item?.img} alt="" />
                         <h3>{item?.headline}</h3>
                         <button className='text-green-500 font-bold'>More details</button>

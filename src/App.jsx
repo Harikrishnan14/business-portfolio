@@ -60,6 +60,18 @@ function App() {
         trigger: ".bg-text"
       }
     })
+
+    gsap.from(".article", {
+      opacity: 0,
+      y: 100,
+      stagger: {
+        amount: 2
+      },
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".article"
+      }
+    })
   });
 
   return (
