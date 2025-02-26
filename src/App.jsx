@@ -72,6 +72,16 @@ function App() {
         trigger: ".article"
       }
     })
+
+    gsap.from(".box", {
+      opacity: 0,
+      stagger: {
+        amount: 1
+      },
+      scrollTrigger: {
+        trigger: ".box"
+      }
+    })
   });
 
   return (
